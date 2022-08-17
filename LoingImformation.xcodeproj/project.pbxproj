@@ -12,6 +12,8 @@
 		AA66BBE228ACA49A00BA73C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA66BBE128ACA49A00BA73C9 /* Preview Assets.xcassets */; };
 		AA66BBEC28ACA4D000BA73C9 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66BBEB28ACA4D000BA73C9 /* LoginModel.swift */; };
 		AA66BBEE28ACA4E000BA73C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66BBED28ACA4E000BA73C9 /* MainView.swift */; };
+		AA66BBF028ACB76400BA73C9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66BBEF28ACB76400BA73C9 /* LoginView.swift */; };
+		AA66BBF228ACBA3000BA73C9 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66BBF128ACBA3000BA73C9 /* CreateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AA66BBE128ACA49A00BA73C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA66BBEB28ACA4D000BA73C9 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		AA66BBED28ACA4E000BA73C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AA66BBEF28ACB76400BA73C9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AA66BBF128ACBA3000BA73C9 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				AA66BBED28ACA4E000BA73C9 /* MainView.swift */,
+				AA66BBEF28ACB76400BA73C9 /* LoginView.swift */,
+				AA66BBF128ACBA3000BA73C9 /* CreateView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,7 +172,9 @@
 			files = (
 				AA66BBDB28ACA49A00BA73C9 /* LoingImformationApp.swift in Sources */,
 				AA66BBEE28ACA4E000BA73C9 /* MainView.swift in Sources */,
+				AA66BBF028ACB76400BA73C9 /* LoginView.swift in Sources */,
 				AA66BBEC28ACA4D000BA73C9 /* LoginModel.swift in Sources */,
+				AA66BBF228ACBA3000BA73C9 /* CreateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
