@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var id = ""
-    @State private var password = ""
+    @State var showTextfield: String = ""
+    @State var itemArray: [String] = []
+    @State var showAlert: Bool = false
+    @State private var id: String = ""
+    @State private var password: String = ""
     var body: some View {
         VStack {
             Text("Welcome!")
@@ -21,13 +24,14 @@ struct LoginView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .cornerRadius(16)
                 .padding([.leading, .trailing], 24)
+                .keyboardType(.default)
             SecureField("Password", text: self.$password)
                 .frame(height: 55)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .cornerRadius(16)
                 .padding([.leading, .trailing], 24)
+                .keyboardType(.default)
             Button(action: {
-            
             }, label:  {
                 Text("로그인")
                     .foregroundColor(.green)
@@ -41,10 +45,12 @@ struct LoginView: View {
                     .padding()
             })
             
-                
         }
-    }
+    }//body
+    
 }
+    
+    
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
